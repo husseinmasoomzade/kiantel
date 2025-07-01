@@ -28,22 +28,10 @@
     h2 {
       color: #1a237e;
     }
-    .brands {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-    .brands button {
-      padding: 8px 14px;
-      background: #e3e3e3;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
     table {
       width: 100%;
       border-collapse: collapse;
+      margin-top: 15px;
     }
     th, td {
       padding: 10px;
@@ -61,12 +49,7 @@
       border-radius: 8px;
       color: white;
       text-decoration: none;
-    }
-    .call {
-      background: #4caf50;
-    }
-    .whatsapp {
-      background: #25D366;
+      background-color: #4caf50;
     }
   </style>
 </head>
@@ -78,13 +61,6 @@
 
   <div class="container">
     <h2>·Ì”  ﬁÌ„  „Ê»«Ì·</h2>
-    <div class="brands">
-      <button>”«„”Ê‰ê</button>
-      <button>«Å·</button>
-      <button>‘Ì«∆Ê„Ì</button>
-      <button>ÂÊ«ÊÌ</button>
-      <button>¬‰—</button>
-    </div>
     <table>
       <thead>
         <tr>
@@ -115,8 +91,9 @@
 
     <div class="contact">
       <h3> „«” »« òÌ«‰ ·</h3>
-      <a href="tel:0512214900" class="call">??  „«”: 051-2214900</a>
-      <a href="https://wa.me/989151222342" class="whatsapp">?? ç  Ê« ”«Å</a>
+      <a href="tel:0512214900">??  „«”: 051-2214900</a>
+      <br />
+      <a href="https://wa.me/989151222342" style="background-color:#25D366;">?? ç  Ê« ”«Å</a>
     </div>
   </div>
 </body>
